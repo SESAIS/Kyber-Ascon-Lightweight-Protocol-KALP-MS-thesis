@@ -1,7 +1,8 @@
 .venv
+.claude
+result_files_Backup
 images
 paper
-result_files
 ascon_core.c
 deployment_1uav_results.json
 deployment_1uav.png
