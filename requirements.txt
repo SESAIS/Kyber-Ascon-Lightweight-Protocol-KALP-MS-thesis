@@ -1,0 +1,34 @@
+# INSTALL:
+#   pip install -r requirements.txt
+#
+#   PYTHON VERSION: 3.9 or higher recommended
+
+# Section 1: Numerical & Plotting
+numpy>=1.24.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+
+# Section 2: Kyber KEM — two implementations used in parallel
+#
+#   kyber-py  : Pure-Python Kyber512 (slower, no C build, used in Steps 4–7)
+#               GitHub: https://github.com/GiacomoPope/kyber-py
+#
+#   pqcrypto  : C-compiled ML-KEM-512 via liboqs (used in Steps 8–15)
+#               GitHub: https://github.com/backbone-hq/pqcrypto
+#               NOTE: pqcrypto requires a C build chain (gcc/clang).
+#                     On macOS: brew install gcc
+#                     On Ubuntu: sudo apt install gcc python3-dev
+
+kyber-py>=0.4.0
+pqcrypto>=0.2.0
+
+# Section 3: Cryptographic utilities
+
+pycryptodome>=3.18.0
+
+# Section 4: Notebook environment
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+
+# Section 5: MAVLink SITL Integration
+pymavlink>=2.4.0
