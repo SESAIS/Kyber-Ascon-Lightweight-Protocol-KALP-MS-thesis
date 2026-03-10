@@ -3,17 +3,17 @@
     "n_uavs": 4,
     "pkts_per_uav": 50,
     "trials": 30,
-    "kalp_iqm_ms": 0.2632,
-    "ligkyx_iqm_ms": 0.7301,
-    "speedup": 2.775,
-    "improvement_pct": 64.0
+    "kalp_iqm_ms": 0.1169,
+    "ligkyx_iqm_ms": 0.3341,
+    "speedup": 2.858,
+    "improvement_pct": 65.0
   },
   "broadcast_latency": {
     "n_uavs": 4,
     "trials": 500,
-    "kalp_total_us": 6.552,
-    "ligkyx_total_us": 13.692,
-    "speedup": 2.09
+    "kalp_total_us": 2.375,
+    "ligkyx_total_us": 6.625,
+    "speedup": 2.789
   },
   "wire_overhead_arithmetic": {
     "tag_saving_per_pkt_bytes": 16,

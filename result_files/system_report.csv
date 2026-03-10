@@ -1,17 +1,17 @@
 Property,Value
-OS,Linux 6.6.113+
-OS Version,#1 SMP Mon Feb  2 12:27:57 UTC 2026
-Architecture,x86_64
-Kernel,Linux version 6.6.113+ (builder@e24020cfdd04) (Chromium OS 17.0_pre498229-r33 cl
-CPU,Intel(R) Xeon(R) CPU @ 2.20GHz
-CPU Cores,2
-CPU Cache L2,256 KiB (1 instance)
-CPU Cache L3,55 MiB (1 instance)
-CPU Max MHz,Unknown
-RAM Total (GB),12.67
-RAM Available (GB),11.52
-Python,3.12.12
-GCC,gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0
-libc,libc.so.6
-Runtime,Google Colab (COLAB_RELEASE_TAG=release-colab-external_20260220-060048_RC00)
-Session timestamp,2026-02-24 06:42:12
+OS,Darwin 25.0.0
+OS Version,Darwin Kernel Version 25.0.0: Wed Sep 17 21:41:39 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8103
+Architecture,arm64
+Kernel,Darwin Kernel Version 25.0.0: Wed Sep 17 21:41:39 PDT 2025; root:xnu-12377.1.9~1
+CPU,Apple M1
+CPU Cores,8
+CPU Cache L2,4096 KiB
+CPU Cache L3,Unknown
+CPU Max MHz,managed by OS (Apple Silicon)
+RAM Total (GB),8.0
+RAM Available (GB),0.33
+Python,3.10.11
+GCC,Apple clang version 17.0.0 (clang-1700.6.3.2)
+libc,/usr/lib/libc.dylib
+Runtime,Jupyter Notebook / Lab
+Session timestamp,2026-03-09 21:01:44

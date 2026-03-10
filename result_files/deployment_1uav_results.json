@@ -5,13 +5,13 @@
     "saving": 32
   },
   "handshake_crypto_iqm_ms": {
-    "kalp": 0.3771,
-    "ligkyx": 0.3933
+    "kalp": 0.0759,
+    "ligkyx": 0.0769
   },
   "per_packet_256B": {
-    "kalp_ns": 3409.0,
-    "ligkyx_ns": 8144.5,
-    "speedup": 2.389,
+    "kalp_ns": 875.0,
+    "ligkyx_ns": 1833.0,
+    "speedup": 2.095,
     "kalp_bytes": 329,
     "ligkyx_bytes": 345
   },
